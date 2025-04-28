@@ -1,0 +1,62 @@
+
+/* Google Fonts Import */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Inter:wght@400;500&display=swap');
+
+/* Base styles */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--midnight);
+    color: var(--cloud);
+}
+
+/* Navigation text animation */
+.nav-animated-text {
+    color: #ffffff !important;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.nav-animated-text:hover {
+    color: var(--gold) !important;
+    transform: scale(1.08);
+}
+
+/* Button styles */
+.btn-primary {
+    background-color: var(--gold);
+    color: black;
+    padding: 0.5rem 1.5rem;
+    border-radius: 9999px;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+    background-color: #ffd700;
+}
+
+.btn-secondary {
+    background-color: white;
+    color: var(--midnight);
+    padding: 0.4rem 1rem;
+    border: 1px solid var(--midnight);
+    border-radius: 0.5rem;
+}
+
+/* Typography */
+.title-xl {
+    font-family: 'Cinzel', serif;
+    font-size: 2.5rem;
+    color: var(--gold);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.title-md {
+    font-family: 'Cinzel', serif;
+    font-size: 1.5rem;
+    color: var(--cloud);
+}
+
+.text-gold {
+    color: var(--gold);
+}
